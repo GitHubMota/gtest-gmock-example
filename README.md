@@ -22,3 +22,7 @@ Optionally to run `instr.sh` if want to generate the code coverage report. But a
     # cd lcov; make install
 
 After run `instr.sh` successfully, you can open the build/lcov-html/index.html in browser to check the coverage report.
+
+Reference
+---
+[gtest和gmock入门实例](http://www.nginx.cn/4297.html)
