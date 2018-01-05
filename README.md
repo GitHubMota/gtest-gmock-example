@@ -3,10 +3,14 @@ Example to show how to use googletest include gtest and gmock
 
 # Quick start
 
-    # export GTEST_ROOT=/where/google/test/is/installed/
+    # export GTEST_ROOT=/where/googletest/is/installed/or/cloned
     # cd gmockSample
     # sh normal.sh
+    
+If no google test in your environment, just clone it from github.
     
+    # git clone https://github.com/google/googletest.git
+
 `normal.sh` will run `cmake .; make` and run the test target.
 
 test target is generated in build dir.
